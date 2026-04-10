@@ -1,0 +1,8 @@
+[package]
+name = "cuda-world-model"
+version = "0.1.0"
+edition = "2021"
+description = "World model — agent's representation of external environment with spatial layout, object permanence, and predictions"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
